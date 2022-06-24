@@ -19,10 +19,10 @@
   "scripts": {
     "start": "run-p start:**",
     "start:app": "react-scripts start",
-    "start:server": "netlify-lambda serve server/lambda",
+    "start:server": "netlify-lambda serve server/routes",
     "build": "run-p build:**",
     "build:app": "react-scripts build",
-    "build:server": "netlify-lambda build server/lambda",
+    "build:server": "netlify-lambda build server/routes",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
